@@ -114,18 +114,12 @@ main .productos {
   } 
 
   form {
-    margin-top: 10px;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
   }
 
-  .formControl {
-    height: 400px;
-    width: 400px;
-    border: solid 1px rgb(180, 180, 180) ;
-  }
 
 /* ----------------- FOOTER ----------------- */
 
@@ -146,3 +140,20 @@ footer {
 }
 
 
+/* ----------------- MEDIA ----------------- */
+
+
+@media screen and (max-width:420px) {
+
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s;
+    margin: 50px;
+  }
+  
+  .img-responsive:hover {
+    transform: scale(1.2);
+  }
+  
+}

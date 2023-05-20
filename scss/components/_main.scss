@@ -1,0 +1,27 @@
+main {
+
+    color: black;
+    text-align: center;
+    min-height: 100%; /* Ajustar la altura al 100% de la altura del elemento padre */
+    padding-bottom: 50px;
+
+    .banner {
+
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+
+            width: 1000px;
+            height: auto;
+  
+
+        }
+
+    }
+
+}

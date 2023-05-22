@@ -5,6 +5,10 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box; }
 
+html, body {
+  height: 100%;
+  min-height: 100vh; }
+
 main {
   color: black;
   text-align: center;
@@ -21,6 +25,53 @@ main {
     main .banner img {
       width: 1000px;
       height: auto; }
+  main .productos {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  main .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    main .galeria .img-responsive {
+      max-width: 100%;
+      height: auto;
+      transition: 0.5s; }
+    main .galeria .img-responsive:hover {
+      transform: scale(1.2); }
+  main .main_formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .main_formulario form button[type="submit"] {
+      transition: 0.5s;
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: black;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer; }
+    main .main_formulario form button[type="submit"]:hover {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: solid 1px black; }
+  main .foto {
+    margin-top: 30px;
+    border-radius: 45%; }
+  main .acerca {
+    text-align: center;
+    margin: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px; }
 
 footer {
   padding: 5px;

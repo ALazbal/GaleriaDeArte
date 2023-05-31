@@ -22,6 +22,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center; }
+    main .banner h1 {
+      padding: 5px; }
     main .banner img {
       width: 1000px;
       height: auto; }

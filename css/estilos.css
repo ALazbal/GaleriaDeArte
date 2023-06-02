@@ -31,6 +31,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center; }
+  main .productos_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px; }
   main .galeria {
     display: flex;
     flex-wrap: wrap;
